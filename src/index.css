@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-[#dfb6e8] text-slate-950 font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  :focus-visible {
+    outline: 2px solid #351919;
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  .droplet-mark {
+    clip-path: path('M40 0C62 0 80 18 80 40C80 62 62 80 40 80C18 80 0 66 0 44C0 22 18 0 40 0Z');
+  }
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
