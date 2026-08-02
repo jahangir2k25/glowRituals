@@ -3,7 +3,7 @@ import videoFile from "../assets/video.mp4";
 
 export default function VideoPlay({
   videoSrc = videoFile,
-  label = "ছেলে-মেয়ে সবাই ব্যবহার করতে পারবে, কোনো প্রকার সাইড ইফেক্ট নেই।",
+  label = "মাত্র ৪ সপ্তাহে ভিজিবল রেজাল্ট && ছেলে-মেয়ে সবাই ব্যবহার করতে পারবে, কোনো প্রকার সাইড ইফেক্ট নেই।",
   poster,
 }) {
   return (
