@@ -14,13 +14,13 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="font-display text-slate-950">যোগাযোগ</h4>
+          <h4 className="font-display text-slate-950">যোগাযোগঃ </h4>
           <div className="mt-3 space-y-2 text-sm text-ink">
             <p className="flex items-center gap-2">
-              <Phone size={14} /> {brand.phone}
+              <Phone size={14} /> +88 01990010445
             </p>
             <p className="flex items-center gap-2">
-              <MapPin size={14} /> ঢাকা, বাংলাদেশ
+              <MapPin size={14} /> বেগম রোকেয়া সড়ক, শেওড়াপাড়া-মিরপুর, ঢাকা, বাংলাদেশ।
             </p>
           </div>
         </div>
@@ -28,10 +28,10 @@ export default function Footer() {
         <div>
           <h4 className="font-display text-ink">সোশ্যাল মিডিয়া</h4>
           <div className="mt-3 flex gap-3">
-            <a href="#" aria-label="ফেসবুক" className="grid h-9 w-9 place-items-center rounded-full bg-ivory text-jade-dark shadow-card">
+            <a href="#" aria-label="ফেসবুক" className="grid h-9 w-9 place-items-center rounded-full bg-ivory hover:bg-rose duration-300 text-jade-dark shadow-card">
               <Facebook size={16} />
             </a>
-            <a href="#" aria-label="ইনস্টাগ্রাম" className="grid h-9 w-9 place-items-center rounded-full bg-ivory text-jade-dark shadow-card">
+            <a href="#" aria-label="ইনস্টাগ্রাম" className="grid h-9 w-9 place-items-center rounded-full bg-ivory hover:bg-rose duration-300 text-jade-dark shadow-card">
               <Instagram size={16} />
             </a>
           </div>

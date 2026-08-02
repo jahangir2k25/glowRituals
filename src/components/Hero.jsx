@@ -5,7 +5,7 @@ import HeroImage from '../assets/img1.webp';
 export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
-      <div className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-blush blur-3xl" />
+      <div className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-orange-100 blur-3xl" />
       <div className="pointer-events-none absolute -left-16 top-40 h-72 w-72 rounded-full bg-jade-light/30 blur-3xl" />
 
       <div className="container-page relative grid gap-12 py-16 md:grid-cols-2 md:items-center md:py-24">

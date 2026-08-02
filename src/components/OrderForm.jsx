@@ -64,7 +64,7 @@ export default function OrderForm() {
                   <button
                     type="button"
                     onClick={() => setQty((q) => Math.max(1, q - 1))}
-                    className="grid h-8 w-8 place-items-center rounded-full bg-ivory shadow-card"
+                    className="grid h-8 w-8 place-items-center rounded-full bg-ivory hover:bg-rose duration-300 shadow-card"
                     aria-label="কমান"
                   >
                     <Minus size={14} />
@@ -73,7 +73,7 @@ export default function OrderForm() {
                   <button
                     type="button"
                     onClick={() => setQty((q) => q + 1)}
-                    className="grid h-8 w-8 place-items-center rounded-full bg-ivory shadow-card"
+                    className="grid h-8 w-8 place-items-center rounded-full bg-ivory hover:bg-rose duration-300 shadow-card"
                     aria-label="বাড়ান"
                   >
                     <Plus size={14} />
@@ -105,7 +105,7 @@ export default function OrderForm() {
 
               <div className="mt-4 flex items-center gap-2 text-xs text-jade-dark">
                 <Truck size={14} />
-                <span>ফ্রি হোম ডেলিভারি</span>
+                <span>সারাদেশে ফ্রি হোম ডেলিভারি</span>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function OrderForm() {
           {/* Billing form */}
           <form onSubmit={handleSubmit} noValidate className="lg:col-span-3">
             <div className="rounded-2xl border border-blush p-6">
-              <h3 className="font-display text-lg text-ink">বিলিং বিবরণ</h3>
+              <h3 className="font-display text-lg text-ink">বিলিং বিবরণঃ</h3>
 
               <div className="mt-4 space-y-4">
                 <div>
@@ -163,15 +163,15 @@ export default function OrderForm() {
 
                 <div className="flex items-center gap-3 rounded-lg bg-blush/40 px-4 py-3 text-sm text-ink">
                   <input type="radio" checked readOnly className="h-4 w-4 accent-rose" />
-                  ক্যাশ অন হোম ডেলিভারি
+                  সারাদেশে ক্যাশ অন হোম ডেলিভারি
                 </div>
               </div>
 
               <button
                 type="submit"
-                className="mt-6 w-full rounded-droplet bg-rose-800 py-3.5 font-medium text-ivory shadow-card transition hover:bg-rose-600"
+                className="mt-6 w-full rounded-droplet bg-rose-800 py-3.5 font-medium text-lg text-ivory shadow-card transition hover:bg-rose-600"
               >
-                অর্ডার কনফার্ম করুন ৳{total}
+                অর্ডার কনফার্ম করুনঃ ৳{total}
               </button>
             </div>
           </form>
