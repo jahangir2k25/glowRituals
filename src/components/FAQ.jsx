@@ -8,7 +8,7 @@ export default function FAQ() {
   return (
     <section id="faq" className="py-16">
       <div className="container-page max-w-2xl">
-        <h2 className="text-center font-display text-3xl text-slate-950">প্রায়শই জিজ্ঞাসিত প্রশ্ন</h2>
+        <h2 className="text-center font-display text-3xl text-slate-950">প্রায়শই জিজ্ঞাসিত প্রশ্ন?</h2>
 
         <div className="mt-8 divide-y divide-blush rounded-2xl border border-blush">
           {faqs.map((f, i) => {

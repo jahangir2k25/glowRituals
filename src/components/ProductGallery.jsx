@@ -9,7 +9,7 @@ export default function ProductGallery() {
     <section id="product" className="py-16">
       <div className="container-page grid gap-10 md:grid-cols-2 md:items-start">
         <div>
-          <div className={`aspect-square w-full overflow-hidden rounded-droplet bg-gradient-to-br ${current.color} shadow-soft`}>
+          <div className={`aspect-square w-full  overflow-hidden rounded-droplet bg-gradient-to-br ${current.color} shadow-soft`}>
             {current.src ? (
               <img
                 src={current.src}

@@ -2,19 +2,21 @@ import comboImg from '../assets/img.webp';
 import suspensionImg from '../assets/img2.jpg';
 import serumImg from '../assets/img3.jpg';
 import usageImg from '../assets/img1.webp';
+import suspenImg from '../assets/img4.avif';
+
 
 export const brand = {
   name: 'গ্লো রিচুয়াল',
   tagline: 'কোরিয়ান স্কিনকেয়ার, বাংলাদেশের ত্বকের জন্য',
-  whatsapp: 'https://wa.me/8801XXXXXXXXX',
-  phone: '01XXXXXXXXX',
+  whatsapp: 'https://wa.me/8801990010445',
+  phone: '01990010445',
 }
 
 export const product = {
   title: 'সেন্টেলা গ্লো — ব্রাইটেনিং কম্বো',
   subtitle: 'মেস্তা, ডার্ক স্পট ও ব্রণের দাগ হালকা করার ২ ধাপের রিচুয়াল',
-  price: 1700,
-  compareAtPrice: 3200,
+  price: 1490,
+  compareAtPrice: 2990,
   rating: 4.8,
   reviewCount: 8000,
   images: [
@@ -22,6 +24,7 @@ export const product = {
     { src: serumImg, alt: 'সেন্টেলা সিরাম বোতল', color: 'from-rose-light to-blush' },
     { src: suspensionImg, alt: 'নাইট সাসপেনশন বোতল', color: 'from-jade-light to-blush' },
     { src: usageImg, alt: 'ব্যবহারের ধাপ', color: 'from-rose to-jade-light' },
+    { src: suspenImg, alt: 'নাইট সাসপেনশন বোতল', color: 'from-jade-light to-blush' },
   ],
   badges: ['ডার্মাটোলজিস্ট সাজেস্টেড', 'ল্যাব টেস্টেড', 'সকল স্কিন টাইপে উপযোগী'],
 }

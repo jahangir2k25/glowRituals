@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Menu, X, ShoppingBag } from 'lucide-react';
 import { brand } from '../data/content';
 
+
 const links = [
   { label: 'প্রোডাক্ট', href: '#product' },
   { label: 'উপকারিতা', href: '#benefits' },

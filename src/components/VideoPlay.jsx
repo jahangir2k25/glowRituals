@@ -14,7 +14,6 @@ export default function VideoPlay({
           src={videoSrc}
           controls
           autoPlay
-          muted
           loop
           playsInline
           poster={poster}
